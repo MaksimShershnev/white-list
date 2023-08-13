@@ -129,6 +129,43 @@ blockquote {
 
 .reasons {
   padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.content-section__subtitle {
+  font-family: 'EB Garamond', serif;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.15;
+}
+
+.content-section__introduction {
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.35;
+}
+
+.content-section__list {
+  padding-left: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.content-section__list-item {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.35;
+}
+
+.content-section__list-accent {
+  font-weight: 700;
 }
 
 .how-to {
