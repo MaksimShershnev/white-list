@@ -54,7 +54,37 @@ blockquote {
 }
 
 .cover {
-  padding: 7px 24px 30px 20px;
+  padding: 7px 24px 32px 20px;
+  background-image: url(../images/cover.svg);
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: 95% auto;
+  min-height: 200px;
+}
+
+.cover__title {
+  /*display: flex;
+  flex-direction: column;
+  align-items: start;*/
+  color: #fff;
+  font-family: 'EB Garamond', serif;
+  font-size: 72px;
+  font-weight: 400;
+  line-height: 100%;
+}
+
+.accent-span {
+  display: block;
+}
+
+.text-center {
+  /*align-self: center;*/
+  text-align: center;
+}
+
+.text-right {
+  /*align-self: end;*/
+  text-align: end;
 }
 
 .intro {
